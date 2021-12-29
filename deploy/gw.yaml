@@ -1,0 +1,16 @@
+#knock: /abc
+addr: ":8080"
+#certs /srv/certs
+acme: false
+self_signed: true
+helmet: false
+https: false
+
+
+routes:
+  /app/: static:///Users/paulosimao/projects/gitea.digitalcircle.com.br/tools/gw/misc/static
+  /b/: https://google.com:443/
+  /api/: execp:///Volumes/DATA/PROJECTS/DC/gateway/bin/
+  /appb/: http://localhost:8080/app/
+#  brpop.ai.local/: http://localhost:8081/
+#  portainer.appion.com.br/:http://portainer:9000/

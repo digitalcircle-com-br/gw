@@ -1,0 +1,28 @@
+POST https://gw.digitalcircle.com.br/___control?key=U3VuIDE0IE1hciAyMDIxIDEwOjA3OjQwIEFNIFVUQwo
+Content-Type: application/json
+
+{
+  "op": "l"
+}
+
+###
+POST https://gw.digitalcircle.com.br/___control?key=U3VuIDE0IE1hciAyMDIxIDEwOjA3OjQwIEFNIFVUQwo
+Content-Type: application/json
+
+{
+  "op": "u",
+  "src": "dl.digitalcircle.com.br/test/",
+  "dst": "https://www.digitalcircle.com:443"
+
+}
+
+###
+POST https://gw.digitalcircle.com.br/___control?key=U3VuIDE0IE1hciAyMDIxIDEwOjA3OjQwIEFNIFVUQwo
+Content-Type: application/json
+
+{
+"op": "d",
+  "src": "dl.digitalcircle.com.br/test/",
+  "dst": "https://www.digitalcircle.com:443"
+
+}
