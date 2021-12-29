@@ -9,7 +9,7 @@ gw
 ```
 
 
-## Configuração
+## Sample Config
 
 ```yaml
 addr: ":8443"
@@ -68,7 +68,7 @@ routes:
 ```
 
 
-## Rodando com Docker
+## Running in docker
 
 ```shell script
 docker volume create gw
@@ -78,7 +78,7 @@ docker network create dc
 docker run -d --restart=always -p 80:80 -p 443:443 -v gw:/srv --name gw --network dc gw
 ```
 
-## Dockerfile para referencias
+## Ref Dockerfile (/deploy)
 
 ```dockerfile
 FROM alpine:latest
